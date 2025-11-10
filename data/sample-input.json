@@ -1,0 +1,13 @@
+[
+  {
+    "url": "https://example.com",
+    "waitUntil": "networkidle2",
+    "delay": 2000,
+    "viewportWidth": 1280,
+    "scrollToBottom": true,
+    "delayAfterScrolling": 1000,
+    "waitUntilNetworkIdleAfterScroll": true,
+    "waitUntilNetworkIdleAfterScrollTimeout": 5000,
+    "output": "OUTPUT/screenshot.png"
+  }
+]
